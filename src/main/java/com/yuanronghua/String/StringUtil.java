@@ -17,12 +17,12 @@ public class StringUtil {
 	 */
 	public final static String CASE_INSENSITIVE = "CASE_INSENSITIVE";
 	/**
-	 * <h1>CASE_SENSITIVE</h1> </code>区分大小�?匹配<code>
+	 * <h1>CASE_SENSITIVE</h1> </code>区分大小写匹配<code>
 	 */
 	public final static String CASE_SENSITIVE = "CASE_SENSITIVE";
 
 	/**
-	 * 在匹配字符串加前�??后缀
+	 * 在匹配字符串加前�??后缀
 	 * 
 	 * @param sourceString
 	 * @param replaceString
@@ -30,7 +30,7 @@ public class StringUtil {
 	 * @param suffixString
 	 * @param CASE_SENSITIVE
 	 *            (<code>StringUtil.CASE_INSENSITIVE 不区分大小写;</code>
-	 *            <code>StringUtil.CASE_SENSITIVE 区分大小�?/code>)
+	 *            <code>StringUtil.CASE_SENSITIVE 区分大小写/code>)
 	 * @return String
 	 */
 	public static String replaceConTent(String sourceString,
